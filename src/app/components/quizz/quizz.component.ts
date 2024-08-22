@@ -44,7 +44,6 @@ export class QuizzComponent implements OnInit {
   playerChoose(value:string){
     this.answers.push(value)
     this.nextStep()
-
   }
 
   async nextStep(){
